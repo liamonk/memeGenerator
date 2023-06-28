@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background: #672280;
+    background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(123,28,157,1) 35%, rgba(162,19,214,1) 100%);
+    box-shadow: 2px 2px 2px 2px lightgray;
+    color: white;
+}
+
+.header--div{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header--img{
+    height: 32px;
+    margin-right: 20px
+}
+
+header>h4{
+    margin-right: 100px;
+}
+
