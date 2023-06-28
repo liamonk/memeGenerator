@@ -76,4 +76,7 @@ button{
     .inputs--input{
         width:80%
     }
+    header>h4{
+           margin-right: 5px
+    }
 }
