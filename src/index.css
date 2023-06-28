@@ -28,3 +28,52 @@ header>h4{
     margin-right: 100px;
 }
 
+.inputs{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    padding: 0;
+    margin-top: 30px
+}
+
+.inputs--input{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.button--container{
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    margin-top: 30px;
+    height: 50px;
+    width:  1150px;
+    border-radius: 5px;
+    background: #672280;
+    background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(123,28,157,1) 35%, rgba(162,19,214,1) 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px){  
+    .header--div{
+        margin-left: 5px;
+    }
+    header{
+        gap:60px
+    }
+    .inputs{
+        flex-direction: column;
+        align-items: center ;
+    }
+    .inputs--input{
+        width:80%
+    }
+}
