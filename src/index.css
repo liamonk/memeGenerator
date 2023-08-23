@@ -28,6 +28,12 @@ header>h4{
     margin-right: 100px;
 }
 
+.input-headings{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -40px;
+}
+
 .inputs{
     justify-content: center;
     display: flex;
@@ -61,6 +67,60 @@ button{
     font-size: 18px;
     font-weight: 700;
 }
+
+.memeContainer{
+  position: relative;
+}
+
+.memeImage{
+    display: block;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}   
+
+.topText{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    top: 0; 
+    text-shadow: 4px 4px 4px black;
+}
+
+.bottomText{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    bottom: 0;
+    text-shadow: 4px 4px 4px black;
+}
+
+.resetButton{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 20px;
+  }
 
 @media only screen and (max-width: 600px){  
     .header--div{
